@@ -1,0 +1,643 @@
+.internet_icon {
+    width: 20px;
+    height: 20px;
+    padding: 60px;
+    margin-left: -6px;
+
+
+}
+
+.clock_icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 54px;
+
+
+
+}
+
+.date_icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 54px;
+
+
+}
+
+.heading1 {
+
+    padding-left: 50px;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.megaphone {
+    width: 450px;
+    height: 450px;
+    margin-left: 700px;
+    margin-top: -350px;
+
+}
+
+.andrei {
+    background-color: #02678b;
+    width: 350px;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin: 40px;
+}
+
+.cameraman {
+    width: 440px;
+    height: 440px;
+    margin-left: 700px;
+    margin-top: -320px;
+}
+
+.rewardicon {
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(243, 241, 241);
+    border: solid rgb(250, 212, 161) 10px;
+    background-color: rgb(250, 212, 161);
+    border-left-width: 50px;
+    border-right-width: 50px;
+    margin-top: 120px;
+    margin-left: 20px;
+
+
+}
+
+.boxes {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.feather_letter {
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(243, 241, 241);
+    border: solid rgb(120, 150, 249) 10px;
+    background-color: rgb(120, 150, 249);
+    border-left-width: 50px;
+    border-right-width: 50px;
+    margin-top: -180px;
+    margin-left: 220px;
+
+
+
+}
+
+.film_icon {
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(243, 241, 241);
+    border: solid rgb(210, 57, 219) 10px;
+    background-color: rgb(210, 57, 219);
+    border-left-width: 50px;
+    border-right-width: 50px;
+    margin-top: -180px;
+    margin-left: 420px;
+
+
+}
+
+.tape {
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(243, 241, 241);
+    border: solid rgb(130, 232, 248) 10px;
+    background-color: rgb(130, 232, 248);
+    border-left-width: 50px;
+    border-right-width: 50px;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.facemask {
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(243, 241, 241);
+    border: solid rgb(233, 186, 129) 10px;
+    background-color: rgb(233, 186, 129);
+    border-left-width: 50px;
+    border-right-width: 50px;
+    margin-top: -180px;
+    margin-left: 220px;
+
+}
+
+
+.cinema {
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(243, 241, 241);
+    border: solid rgb(70, 73, 241) 10px;
+    background-color: rgb(70, 73, 241);
+    border-left-width: 50px;
+    border-right-width: 50px;
+    margin-top: -185px;
+    margin-left: 415px;
+
+
+}
+
+.crown {
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(243, 241, 241);
+    border: solid rgb(132, 134, 255) 10px;
+    background-color: rgb(132, 134, 255);
+    border-left-width: 50px;
+    border-right-width: 50px;
+
+    margin-left: 15px;
+
+
+}
+
+.binocular {
+
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(243, 241, 241);
+    border: solid rgb(45, 211, 106) 10px;
+    background-color: rgb(45, 211, 106);
+    border-left-width: 50px;
+    border-right-width: 50px;
+    margin-top: -180px;
+    margin-left: 220px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: burlywood;
+
+}
+
+.back_gr1 {
+    background-color: rgb(170, 170, 170);
+    padding: 300px;
+    margin-top: 120px;
+}
+
+.textbar {
+    border: rgb(235, 230, 230) solid 20px;
+    background-color: rgb(235, 230, 230);
+    padding: 160px;
+    margin-top: 20px;
+    margin-left: -210px;
+    border-radius: 50px;
+
+
+}
+
+.female_icon {
+    width: 150px;
+    height: 150px;
+    margin-left: -160px;
+    margin-top: -180px;
+
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+
+}
+
+.facebook:hover {
+    background-color: rgb(126, 117, 99);
+}
+
+.back_gr2 {
+    border: 30px solid cadetblue;
+    background-color: cadetblue;
+    padding: 250px;
+}
+
+.first {
+    font-size: 25px;
+    margin-left: -160px;
+    margin-top: -30px;
+}
+
+
+
+
+.insta {
+    width: 40px;
+    height: 40px;
+    margin-left: -200px;
+
+}
+
+.fb {
+    width: 40px;
+    height: 40px;
+    margin-left: -145px;
+
+}
+
+.yt {
+    width: 40px;
+    height: 40px;
+    margin-left: -90px;
+}
+
+
+
+
+
+.linkedin {
+    width: 40px;
+    height: 40px;
+    margin-left: -40px;
+}
+
+.socials {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.contacts {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.telephone {
+    width: 40px;
+    height: 40px;
+    margin-left: 1700%;
+    margin-top: -170px;
+
+}
+
+.telephone1 {
+    margin-top: -45px;
+}
+
+.telephone_number {
+    margin-top: 60px;
+    margin-left: -85px;
+
+}
+
+.gmail_adres {
+    margin-top: -115px;
+    margin-left: -75px;
+
+
+}
+
+
+
+
+.mail {
+    width: 40px;
+    height: 40px;
+    margin-left: 1600%;
+    margin-top: -120px;
+}
+
+.fcbk {
+    margin-top: -20px;
+}
+
+
+
+.image-container {
+    width: 800px;
+    height: 800px;
+    position: relative;
+}
+
+/* .image-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} */
+
+.row {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width:600px) {
+    .heading1 {
+        margin-left: -25px;
+        font-size: 50px;
+    }
+    .bra1{
+        margin-left: -20px;
+    }
+
+
+    .megaphone {
+        width: 120px;
+        height: 120px;
+        margin-left: 190px;
+        margin-top: -40px;
+    }
+    .andrei1{
+        margin-left: -70px;
+        font-size: 15px;
+    }
+
+    .text{
+        margin-left: -40px;
+        font-size: 15px;
+    }
+
+    .andrei {
+        margin-left: 8px;
+
+    }
+
+    .cameraman {
+        width: 160px;
+        height: 160px;
+        margin-top: -10px;
+        margin-left: 150px;
+    }
+
+    .cameraman2 {
+        display: none;
+        overflow: hidden;
+    }
+
+    .casa {
+        margin-top: 30px;
+        margin-left: -240px;
+    }
+
+    .eanyat {
+        margin-top: -20px;
+        margin-left: -200px;
+    }
+
+    .eanyat_out {
+        margin-left: -200px;
+        margin-top: -15px;
+    }
+
+    .casa_out {
+        margin-top: -10px;
+        margin-left: -240px;
+    }
+
+    .ledeli {
+        margin-top: 120px;
+        margin-left: -600px;
+    }
+
+    .ledeli_out {
+        margin-left: -600px;
+        margin-top: -15px;
+    }
+    .format{
+        margin-left: -20px;
+    }
+    .list{
+        margin-left: -10px;
+        font-size: 13px;
+    }
+    .program{
+        margin-left: -23px;
+    }
+
+    .dostup {
+        margin-top: 150px;
+        margin-left: -230px;
+    }
+   
+
+    .dostup_out {
+        margin-left: -230px;
+    }
+
+    .obsenie {
+        margin-top: 150px;
+        margin-left: -500px;
+    }
+
+    .obsenie_out {
+        margin-left: -460px;
+    }
+
+    .film_icon {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .film_head {
+        margin-left: -400px;
+        margin-top: 95px;
+    }
+  
+
+    .film_out {
+        margin-left: -400px;
+    }
+
+    .seminar_head {
+        display: none;
+    }
+
+    .cinema {
+        margin-top: -370px;
+        margin-left: 220px;
+    }
+
+    .seminar_out {
+        display: none;
+    }
+
+    .kurs {
+        width: 200px;
+        margin-left: -80px;
+    }
+
+    .textbar {
+        width: 100px;
+        height: 800px;
+
+        border: rgb(235, 230, 230) solid 20px;
+        background-color: rgb(235, 230, 230);
+        margin-top: 20px;
+        margin-left: -300px;
+        border-radius: 50px;
+
+    }
+
+    .back_gr1 {
+        width: 450px;
+
+    }
+
+    .ekaterina {
+        margin-top: -160px;
+        margin: 20px;
+        margin-left: -20px;
+    }
+
+    .female_icon {
+        margin-left: -270px;
+        margin-top: -200px;
+
+    }
+
+    .back_gr2 {
+        width: 490px;
+
+    }
+
+    .nacalo {
+        margin-left: -110px;
+        width: 200px;
+    }
+
+    .stoimost {
+        margin-left: -100px;
+    }
+
+    .rubl {
+        margin-left: -100px;
+    }
+
+
+    .dlya {
+        margin-left: -120px;
+        
+    }
+
+    .first {
+        margin-left: -280px;
+        margin-top: -30px;
+    }
+
+    .prokho {
+        display: none;
+    }
+
+    .second {
+        display: none;
+    }
+
+    footer {
+        width: 490px;
+    }
+
+    .telephone {
+        margin: 100px;
+        margin-left: -220px;
+    }
+
+    .telephone_number {
+        margin-left: -980px;
+        margin-top: 185px;
+
+    }
+
+    .mail {
+        margin-top: 160px;
+        margin-left: -220px;
+    }
+
+    .gmail_adres {
+        margin-left: -910px;
+        margin-top: 225px;
+    }
+
+    .textbar {
+        border: rgb(235, 230, 230) solid 10px;
+        background-color: rgb(235, 230, 230);
+        padding: 160px;
+        margin-top: 10px;
+        margin-left: -310px;
+        border-radius: 50px;
+        width: 220px;
+
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:1100px) {
+    .megaphone {
+        margin-left: 550px;
+    }
+
+    .cameraman {
+
+        margin-left: 500px;
+    }
+
+    .back_gr1 {
+        width: 470px;
+    }
+
+    .back_gr2 {
+        width: 510px;
+    }
+
+    footer {
+        width: 510px;
+    }
+
+    .telephone {
+        margin-left: 350px;
+        text-align: center;
+
+    }
+
+    .telephone_number {
+        margin-left: -420px;
+        margin-top: 60px;
+
+
+    }
+
+    .mail {
+        margin-left: 350px;
+        text-align: center;
+    }
+
+    .gmail_adres {
+        margin-left: -410px;
+        margin-top: -110px;
+    }
+
+}

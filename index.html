@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>
+    body{
+        margin: 0;
+    }
+
+.navbar{
+        display: flex;
+        background-color: #333;
+        padding: 10px;
+    }
+
+    .logo{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin-right: auto;
+    }
+
+    .nav-links{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin:0;
+        margin-left: 1200px;
+        margin-top: -35px;
+    }
+
+    .nav-links a{
+        text-decoration: none;
+        color: wheat;
+        padding: 5px 10px;
+    
+    }
+
+    .nav-links a:hover{
+        background-color: #575757;
+        border-radius: 5px;
+        
+        
+    }
+
+    .nav-links li{
+        margin: 5px 0;
+    }
+    .navbar:hover{
+        background-color: black;
+    }
+    .logo:hover{
+        color: red;
+        
+    }
+
+.card{
+    margin-left: 1px;
+    border-color: black 2px;
+    height: 10%;
+    width: 10%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    border: 3px red solid;
+    
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    background-color: whitesmoke;
+    color: black;
+    width: 50%;
+    border-radius: 5px;
+}    
+
+button:hover{
+    background-color: cadetblue;
+    color: red;
+    width: 40%;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 800px) {
+    .card{
+        box-sizing: border-box;
+        float: left;
+        height: 10%;
+        width: 100%;
+        border: 3px solid red;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: bisque;
+
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .card{
+        box-sizing: border-box;
+        float: left;
+        height: 10%;
+        width: 25%;
+        border: 3px solid red;
+        padding: 20px;
+        background-color: bisque;
+    }
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 150px); 
+  gap: 10px; 
+  width: 80%;
+  max-width: 1200px;
+}
+
+.item {
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item-1 { background-color: #e74c3c; }
+.item-2 { background-color: #2ecc71; }
+.item-3 { background-color: #f39c12; }
+.item-4 { background-color: #9b59b6; }
+.item-5 { background-color: #1abc9c; }
+.item-6 { background-color: #34495e; }
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, 150px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 150px); 
+  }
+}
+
+</style>
+
+<div class="navbar"><a href="#" class="logo">myLogo</a></div>
+
+<ul class="nav-links">
+
+    <li> <a href="#">Home</a></li>
+    <li> <a href="#">About</a></li>
+    <li> <a href="#">Services</a></li>
+    <li> <a href="#">Contact</a></li>
+
+
+</ul>
+
+    <div class="card">
+        <div class="cardImg">
+            <img src="What-are-High-Resolution-Images.png" alt="#">
+
+
+        </div>
+
+        <div class="cardText">
+            <h2>Computer</h2>
+
+        </div>
+        <div class="cardDescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed iste, quis velit nulla fugiat accusamus voluptatum quos deserunt a dolores corrupti quae. Quis earum accusantium impedit mollitia! Deserunt, quaerat.</p>
+
+        </div>
+
+        <button class="button1">Read more</button>
+
+    </div>
+
+    <div class="card">
+        <div class="cardImg">
+            <img src="What-are-High-Resolution-Images.png" alt="#">
+
+
+        </div>
+
+        <div class="cardText">
+            <h2>Computer</h2>
+
+        </div>
+        <div class="cardDescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed iste, quis velit nulla fugiat accusamus voluptatum quos deserunt a dolores corrupti quae. Quis earum accusantium impedit mollitia! Deserunt, quaerat.</p>
+
+        </div>
+
+        <button class="button1">Read more</button>
+
+    </div>
+    <div class="card">
+        <div class="cardImg">
+            <img src="What-are-High-Resolution-Images.png" alt="#">
+
+
+        </div>
+
+        <div class="cardText">
+            <h2>Computer</h2>
+
+        </div>
+        <div class="cardDescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed iste, quis velit nulla fugiat accusamus voluptatum quos deserunt a dolores corrupti quae. Quis earum accusantium impedit mollitia! Deserunt, quaerat.</p>
+
+        </div>
+
+        <button class="button1">Read more</button>
+
+    </div>
+    <div class="card">
+        <div class="cardImg">
+            <img src="What-are-High-Resolution-Images.png" alt="#">
+
+
+        </div>
+
+        <div class="cardText">
+            <h2>Computer</h2>
+
+        </div>
+        <div class="cardDescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed iste, quis velit nulla fugiat accusamus voluptatum quos deserunt a dolores corrupti quae. Quis earum accusantium impedit mollitia! Deserunt, quaerat.</p>
+
+        </div>
+
+        <button class="button1">Read more</button>
+
+    </div>
+    <div class="card">
+        <div class="cardImg">
+            <img src="What-are-High-Resolution-Images.png" alt="#">
+
+
+        </div>
+
+        <div class="cardText">
+            <h2>Computer</h2>
+
+        </div>
+        <div class="cardDescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed iste, quis velit nulla fugiat accusamus voluptatum quos deserunt a dolores corrupti quae. Quis earum accusantium impedit mollitia! Deserunt, quaerat.</p>
+
+        </div>
+
+        <button class="button1">Read more</button>
+
+    </div>
+    <div class="card">
+        <div class="cardImg">
+            <img src="What-are-High-Resolution-Images.png" alt="#">
+
+
+        </div>
+
+        <div class="cardText">
+            <h2>Computer</h2>
+
+        </div>
+        <div class="cardDescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed iste, quis velit nulla fugiat accusamus voluptatum quos deserunt a dolores corrupti quae. Quis earum accusantium impedit mollitia! Deserunt, quaerat.</p>
+
+        </div>
+
+        <button class="button1">Read more</button>
+
+    </div>
+    <div class="card">
+        <div class="cardImg">
+            <img src="What-are-High-Resolution-Images.png" alt="#">
+
+
+        </div>
+
+        <div class="cardText">
+            <h2>Computer</h2>
+
+        </div>
+        <div class="cardDescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed iste, quis velit nulla fugiat accusamus voluptatum quos deserunt a dolores corrupti quae. Quis earum accusantium impedit mollitia! Deserunt, quaerat.</p>
+
+        </div>
+
+        <button class="button1">Read more</button>
+
+    </div>
+    <div class="card">
+        <div class="cardImg">
+            <img src="What-are-High-Resolution-Images.png" alt="#">
+
+
+        </div>
+
+        <div class="cardText">
+            <h2>Computer</h2>
+
+        </div>
+        <div class="cardDescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed iste, quis velit nulla fugiat accusamus voluptatum quos deserunt a dolores corrupti quae. Quis earum accusantium impedit mollitia! Deserunt, quaerat.</p>
+
+        </div>
+
+        <button class="button1">Read more</button>
+
+    </div>
+    <div class="card">
+        <div class="cardImg">
+            <img src="What-are-High-Resolution-Images.png" alt="#">
+
+
+        </div>
+
+        <div class="cardText">
+            <h2>Computer</h2>
+
+        </div>
+        <div class="cardDescription">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, sed iste, quis velit nulla fugiat accusamus voluptatum quos deserunt a dolores corrupti quae. Quis earum accusantium impedit mollitia! Deserunt, quaerat.</p>
+
+        </div>
+
+        <button class="button1">Read more</button>
+
+    </div>
+    
+
+    <table border="1" style="color: dodgerblue; border-color: rgb(253, 246, 237);">
+        <Thead>
+            <td colspan="5" style="border: 0;">
+                <h2 style="text-align: center;"> Jan_23_2025 </h2>
+            </td>
+            <tr>
+                <th style="border: 0; background-color: rgb(225, 249, 249);"> </th>
+                <th style="font-size: 15px; border: 0; border-style: inset; background-color: rgb(225, 249, 249); ">
+                    Photo</th>
+                <th style="font-size: 15px; border: 0; background-color: rgb(225, 249, 249);">Student's full name</th>
+                <th style="font-size: 15px; border: 0;background-color: rgb(225, 249, 249);">Last seen in MyStat</th>
+                <th style="font-size: 15px; border: 0; background-color: rgb(225, 249, 249);">Comment</th>
+            </tr>
+        </Thead>
+        <tr>
+            <Tbody>
+
+                <td>1</td>
+                <td>
+                    <img src="./computer-icons-user-profile-circle-abstract.jpg" alt=""
+                        style="height: 30px; width: 30px; padding: 5px;">
+                </td>
+                <td style="text-align: center;">
+                    Abbasli Asger Ramil
+                </td>
+
+                <td style="text-align: center;">
+                    01/05/24
+                </td>
+
+                <td><img src="./comic-style-comment-icon-with-transparent-background-file-png.webp" alt=""
+                        style="height: 40px; width: 40px; padding: 5px; "></td>
+
+
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td><img src="./computer-icons-user-profile-circle-abstract.jpg" alt=""
+                    style="height: 30px; width: 30px; padding: 5px;"></td>
+            <td style="text-align: center;">Aliyev Vuqar Murad</td>
+            <td style="text-align: center;">01/06/24</td>
+            <td><img src="./comic-style-comment-icon-with-transparent-background-file-png.webp" alt=""
+                    style="height: 40px; width: 40px; padding: 5px;"></td>
+
+
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><img src="./computer-icons-user-profile-circle-abstract.jpg" alt=""
+                    style="height: 30px; width: 30px; padding: 5px;"></td>
+            <td style="text-align: center;">Agayev Muxtar Rasim</td>
+            <td style="text-align: center;">01/07/24</td>
+            <td><img src="./comic-style-comment-icon-with-transparent-background-file-png.webp" alt=""
+                    style="height: 40px; width: 40px; padding: 5px;"></td>
+        </tr>
+
+
+        <tr>
+            <td>4</td>
+            <td><img src="./computer-icons-user-profile-circle-abstract.jpg" alt=""
+                    style="height: 30px; width: 30px; padding: 5px;"></td>
+            <td style="text-align: center;">Aliyev Tahir Sefer</td>
+            <td style="text-align: center;">01/07/24</td>
+            <td><img src="./comic-style-comment-icon-with-transparent-background-file-png.webp" alt=""
+                    style="height: 40px; width: 40px; padding: 5px;"></td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td> <img src="./computer-icons-user-profile-circle-abstract.jpg" alt=""
+                    style="padding: 5px; width: 30px; height: 30px;"></td>
+            <td style="text-align: center;">Babaxanov Murad Haci</td>
+            <td style="text-align: center;">01/07/24 </td>
+            <td><img src="./comic-style-comment-icon-with-transparent-background-file-png.webp" alt=""
+                    style="height: 40px; width: 40px; padding: 5px;"></td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td><img src="./computer-icons-user-profile-circle-abstract.jpg" alt=""
+                    style="height: 30px; width: 30px; padding: 5px;"></td>
+            <td style="text-align: center;">Bagirov Ismayil Elmar</td>
+            <td style="text-align: center;">01/07/24</td>
+            <td><img src="./comic-style-comment-icon-with-transparent-background-file-png.webp" alt=""
+                    style="height: 40px; width: 40px; padding: 5px;"></td>
+        </tr>
+
+
+
+
+
+
+
+        <tr>
+            <td>7</td>
+            <td><img src="./computer-icons-user-profile-circle-abstract.jpg" alt=""
+                    style="height: 30px; width: 30px; padding: 5px;"></td>
+            <td style="text-align: center;">Esgerzade Ehmed Samir</td>
+            <td style="text-align: center;">01/07/24</td>
+            <td><img src="./comic-style-comment-icon-with-transparent-background-file-png.webp" alt=""
+                    style="height: 40px; width: 40px; padding: 5px;"></td>
+        </tr>
+
+        </Tbody>
+        <Tfoot>
+
+
+        </Tfoot>
+
+    </table>
+
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+      </div>
+
+
+
+</body>
+</html>
